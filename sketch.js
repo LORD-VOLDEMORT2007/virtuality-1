@@ -40,10 +40,10 @@ function draw() {
   textSize(50)
   text ("FOOD: " + dogB , 300 , 100)
 
-  if (dogB <= 0){
+  if (dogB < 0){
     fill ("black")
     textSize(50)
-  text("FOODS GONE -VE" , 200 , 200)
+  text("FOODS GONE -VE WOOF!" , 100 , 200)
 
   }
   
